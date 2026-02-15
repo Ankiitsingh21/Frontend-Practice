@@ -30,6 +30,7 @@ function App() {
     if (count < 20) {                 // constraint: max 20
       setCount(count + 1);
     }
+    // setCount(count=>count+1);
   };
 
   const removeValue = () => {
